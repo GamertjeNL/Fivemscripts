@@ -1,17 +1,13 @@
-# FiveM Discord Bot - A discord bot that runs on a FiveM Server!
+# FiveM Discord Bot - een fivem bot die op je fivem server draait
 
-1. Install dependencies: 
+1. Installeer de benodigdheden: 
 ```sh
 npm i
 ```
 
-2. Create `config.json` file:
-```sh
-touch config.json
-# or just create it in the file-explorer
-```
+2. edit de `config.json` file
 
-3. Enter bot *token* in config file:
+3. zet je bot *token* in je config.json file:
 ```json
 // config.json
 {
@@ -19,4 +15,4 @@ touch config.json
 }
 ```
 
-* You can get a bot token from [here](https://discordapp.com/developers/applications/) 
+* Maak hier je bot token aan.[here](https://discordapp.com/developers/applications/) 
