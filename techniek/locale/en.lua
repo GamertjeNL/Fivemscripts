@@ -1,0 +1,16 @@
+Locales['en'] = {
+	['GPS_info'] = 'Er is een nieuwe baan gemarkeerd op uw ~y~GPS',
+	['cancel_mission'] = 'Je hebt de missie geannuleerd',
+	['pickup'] = 'Druk op ~INPUT_CONTEXT~ om de werkplek te inspecteren',
+	['end_service'] = 'Service beëindigen',
+	['take_service'] = 'Neem service',
+	['end_service_notif'] = 'Service beëindigd',
+	['take_service_notif'] = 'Begonnen ~g~Service',
+	['start_job'] = 'Druk op ~b~F10~w~ om de taak te starten',
+	['Vehicle_Menu_Title'] = 'Service voertuig',
+	['in_vehicle'] = '~r~Je moet uit je auto zijn!',
+	['vehicle_broken'] = '~r~U moet het voertuig repareren voordat u verder gaat!',
+	['bad_vehicle'] = 'U kunt alleen het ~b~Servicevoertuig opslaan',
+	['not_good_veh'] = '~r~Je moet in je servicewagen zitten!',
+	['stop_npc'] = 'Job ~g~Complete~s~: Ga terug naar het depot',
+}
