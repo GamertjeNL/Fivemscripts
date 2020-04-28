@@ -5,14 +5,14 @@ You should have received a copy of the GNU General Public License
 along with this program in the file "LICENSE".  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-local url = "https://raw.githubusercontent.com/TGRHavoc/live_map/master/version.json"
-local version = "2.1.7"
+local url = "https://raw.githubusercontent.com/wil2005-development/Fivemscripts/master/discordbotfivem/version.json"
+local version = "1.0.0"
 local latest = true
 
 local rawData = LoadResourceFile(GetCurrentResourceName(), "version.json")
 
 if not rawData then
-print("Couldn't read \"versions.json\" file.. Please make sure it's readable and exists.")
+print("Ik kan de version.json niet lezen, vraag de maker hier naar!")
 else
 rawData = json.decode(rawData)
 version = rawData["resource"]
@@ -24,10 +24,10 @@ local parsed = json.decode(data)
 
 if (parsed["resource"] ~= version) then
     print("|===================================================|")
-    print("|             Live Map Update Available             |")
-    print("|    Current : " .. version .. "                                |")
-    print("|    Latest  : " .. parsed["resource"] .. "                                |")
-    print("| Download at: https://github.com/TGRHavoc/live_map |")
+    print("|             Discord bot nieuwe update             |")
+    print("|    Current : " .. version .. "                    |")
+    print("|    Latest  : " .. parsed["resource"] .. "         |")
+    print("| Download at: https://github.com/wil2005-development/Fivemscripts |")
     print("|===================================================|")
     latest = false -- Stop running the timeout
 end
