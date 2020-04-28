@@ -1,8 +1,10 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
 
-description 'ESX Techniek'
+games {"gta5"}
 
-version '1.0'
+author "William"
+description "Discord bot run on fivem server"
+version "1.0.0"
 
 client_scripts {
     '@es_extended/locale.lua',
