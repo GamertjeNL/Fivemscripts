@@ -1,9 +1,3 @@
---[[
-    LiveMap - A LiveMap for FiveM servers
-      Copyright (C) 2017  Jordan Dalton
-You should have received a copy of the GNU General Public License
-along with this program in the file "LICENSE".  If not, see <http://www.gnu.org/licenses/>.
-]]
 
 local url = "https://raw.githubusercontent.com/wil2005-development/Fivemscripts/master/discordbotfivem/version.json"
 local version = "1.0.0"
