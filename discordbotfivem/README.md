@@ -15,4 +15,4 @@ npm i
 }
 ```
 
-* Maak hier je bot token aan.[here](https://discordapp.com/developers/applications/) 
+* Maak hier je bot token aan.[here](https://discord.com/developers/applications/) 

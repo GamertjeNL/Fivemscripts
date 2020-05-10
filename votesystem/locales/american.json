@@ -1,0 +1,9 @@
+{
+    "steam_not_found" : "Steam is niet gevonden, je kunt geen beloningen claimen. Start Steam voordat je lid wordt van de server om je stem te claimen.",
+    "vote" : "Stem op ~y~~a~",
+    "vote_help" : "Krijg de vote link van deze server",
+    "checkvote_help" : "Ontvang een beloning voor het stemmen op deze server. Steam moet draaien",
+    "vote_not_found" : "U heeft nog niet gestemd. Ga naar ~y~~a~~s~ om te stemmen.",
+    "vote_already_claimed" : "Je hebt je beloning al opgeëist.",
+    "vote_claimed" : "Gefeliciteerd. Je hebt je beloning opgeëist voor de stemming van vandaag."
+}
