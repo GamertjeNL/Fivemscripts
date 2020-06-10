@@ -1,5 +1,7 @@
 # FiveM Discord Bot - een fivem bot die op je fivem server draait
 
+# LET OP: Deze script doet het meer naar behoren, wordt zo spoedig mogelijk gefixt
+
 1. Installeer de benodigdheden: 
 ```sh
 npm i
