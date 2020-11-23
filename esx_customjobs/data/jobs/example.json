@@ -1,0 +1,236 @@
+{
+    "JobName": "Camorra",
+    "Job": "camorra",
+    "Grades": [
+        {
+            "Grade": 0,
+            "Name": "picciotti",
+            "Label": "Picciotti",
+            "Salary": 650,
+            "Denied": [
+                "safe.item.buy",
+                "safe.weapon.*",
+                "safe.account.remove"
+            ]
+        },
+        {
+            "Grade": 1,
+            "Name": "sgarrista",
+            "Label": "Sgarrista",
+            "Salary": 700,
+            "Denied": [
+                "safe.item.buy",
+                "safe.weapon.buy",
+                "safe.account.remove"
+            ]
+        },
+        {
+            "Grade": 2,
+            "Name": "santista",
+            "Label": "Santista",
+            "Salary": 750,
+            "Denied": [
+                "safe.account.remove"
+            ]
+        },
+        {
+            "Grade": 3,
+            "Name": "rosettacutolo",
+            "Label": "Rosetta Cutolo",
+            "Salary": 800,
+            "Denied": []
+        },
+        {
+            "Grade": 4,
+            "Name": "boss",
+            "Label": "Vangelo",
+            "Salary": 850,
+            "Denied": []
+        }
+    ],
+    "Wehbooks": {
+        "Actions": [
+            "https://discordapp.com/api/webhooks/674237370798702633/tgl1ahW1_0XbudKAE0DGfeesIA4ZdaQTcb_sRjBnzuM2BIf8Ij49qccjlF7Zhh2TAWwj"
+        ],
+        "Safe": [
+            "https://discordapp.com/api/webhooks/674237411693297689/573Tl3bZtlUxJ_zz2AVrMspMKoR1nXjoaSwVrREv9F6KLrJWU2XCLxaInj7cxlZD_K1_"
+        ],
+        "Money": [
+            "https://discordapp.com/api/webhooks/674237449819389992/8x0iCwQHvq7td1qUVatcJUcuaLjUcUucJH7cgqYATIS64_q9hS99JfMjMiXqPljJMmE0"
+        ],
+        "Weapon": [
+            "https://discordapp.com/api/webhooks/694431074964471838/Hdze684t_sQKUOHZrRi2chC9rAudz2yVlG-_uK2qPmcQcNkf3ohxUpquFY-mlUGqolbR"
+        ],
+        "Employee": [
+            "https://discordapp.com/api/webhooks/674237484820987915/Qp_DF9l3UCd3pK6fwX4ixnEUfcO-cpiMU9MHI6rvZUhTv_UE9l41y3pOPhpimzUnSV8W"
+        ],
+        "MoneyTransactions": [
+            "https://discordapp.com/api/webhooks/694109131287822437/M8ZQQjnE7UAseXoe0YU2cBmTr3L6jrw8-XvCLyIYGBdzcl8E_9NQ42DixKt0kqcxkH3i"
+        ],
+        "ItemTransactions": [
+            "https://discordapp.com/api/webhooks/694123896760172625/8Jp0eyO7M2T-lH1-pwsn6I6en00vmTid6rcV9ItWx7rx-VGKdD_leKgYgoPn7-g6H6_v"
+        ],
+        "WeaponTransactions": [
+            "https://discordapp.com/api/webhooks/694124031422627980/HqPmN4GemndMnAK40nTlFXhvSASA-GanYgYiB96rOS6v-LgRKQeL4gdFZ98CHD2qGs-h"
+        ]
+    },
+    "Allowed": [
+        "safe.item.*",
+        "safe.weapon.*",
+        "safe.account.*",
+        "wardrobe.*",
+        "vehicle.*",
+        "action.menu.*"
+    ],
+    "Positions": [
+        {
+            "Type": "safe_items",
+            "Name": "Item Kluis #1",
+            "Denied": [],
+            "Public": false,
+            "Position": { "x": -1483.85, "y": -376.01, "z": 39.17 },
+            "Color": { "r": 255, "g": 0, "b": 0 },
+            "Size": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "Marker": 1
+        },
+        {
+            "Type": "safe_weapons",
+            "Name": "Wapen Kluis #1",
+            "Denied": [],
+            "Public": false,
+            "Position": { "x": -1478.93, "y": -375.46, "z": 38.16 },
+            "Color": { "r": 255, "g": 0, "b": 0 },
+            "Size": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "Marker": 1
+        },
+        {
+            "Type": "wardrobe",
+            "Name": "Kledingkast #1",
+            "Denied": [],
+            "Public": false,
+            "Position": { "x": -1487.1, "y": -375.74, "z": 39.16 },
+            "Color": { "r": 255, "g": 255, "b": 0 },
+            "Size": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "Marker": 1
+        },
+        {
+            "Type": "vehicles",
+            "Name": "Garage #1",
+            "Denied": [],
+            "Public": false,
+            "Position": { "x": -1489.97, "y": -385.11, "z": 39.11 },
+            "Color": { "r": 0, "g": 255, "b": 255 },
+            "Size": { "x": 1.5, "y": 1.5, "z": 1.5 },
+            "Marker": 1,
+            "AddonData": {
+                "Spawn": { "x": -1506.14, "y": -384.02, "z": 39.81, "h": 44.5 }
+            }
+        },
+        {
+            "Type": "parkings",
+            "Name": "Parking #1",
+            "Denied": [],
+            "Public": false,
+            "Position": { "x": -1512.76, "y": -378.03, "z": 40.68 },
+            "Color": { "r": 255, "g": 0, "b": 0 },
+            "Size": { "x": 2.5, "y": 2.5, "z": 1.5 },
+            "Marker": 1
+        }
+    ],
+    "Menu": {
+        "PrimaryColor": { "r": 255, "g": 0, "b": 0 },
+        "SecondaryColor": { "r": 0, "g": 0, "b": 0 },
+        "HeaderImage": "camorra.jpg"
+    },
+    "BuyableItems": [
+        {
+            "Type": "item",
+            "Price": 2500,
+            "Item": "fixkit"
+        },
+        {
+            "Type": "weapon",
+            "Price": 250000,
+            "Weapon": "WEAPON_PISTOL50"
+        }
+    ],
+    "Clothes": [
+        {
+            "Name": "Security",
+            "Allowed": [],
+            "Skin": {
+                "tshirt_1": 38,
+                "tshirt_2": 0,
+                "torso_1": 81,
+                "torso_2": 0,
+                "decals_1": 0,
+                "decals_2": 0,
+                "arms": 30,
+                "arms_2": 0,
+                "pants_1": 50,
+                "pants_2": 2,
+                "shoes_1": 10,
+                "shoes_2": 0,
+                "bproof_1": 0,
+                "bproof_2": 0,
+                "chain_1": 6,
+                "chain_2": 0,
+                "helmet_1": -1,
+                "helmet_2": 0,
+                "glasses": 0,
+                "glasses_1": 5,
+                "glasses_2": 5,
+                "watches_1": -1,
+                "watches_2": 0,
+                "bracelets_1": -1,
+                "bracelets_2": 0,
+                "bags_1": 44,
+                "bags_2": 0
+            },
+            "Gender": "M"
+        }
+    ],
+    "Vehicles": {
+        "VehicleProps": {
+            "modArmor": 1,
+            "modEngine": 3,
+            "modBrakes": 2,
+            "modTransmission": 2,
+            "modSuspension": 3,
+            "modTurbo": true,
+            "color1": 28,
+            "color2": 0,
+            "pearlescentColor": 28,
+            "plateIndex": 1,
+            "modAPlate": 5,
+            "modWindows": 1,
+            "modXenon": true
+        },
+        "Vehicles": [
+            {
+                "Name": "Audi RS7",
+                "Model": "rs7",
+                "CustomTuning": {
+                    "color2": 28
+                },
+                "Allowed": []
+            }
+        ],
+        "LicensePlate": {
+            "Prefix": "JOB",
+            "SpaceBetween": false,
+            "Length": 8
+        }
+    },
+    "Blips": [
+        {
+            "Title": "Camorra HQ",
+            "VisibleForEveryone": false,
+            "Position": { "x": -1485.75, "y": -378.5, "z": 39.19 },
+            "Sprite": 475,
+            "Display": 6,
+            "Scale": 1.0,
+            "Colour": 60
+        }
+    ]
+}
